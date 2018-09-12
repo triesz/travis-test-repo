@@ -16,7 +16,7 @@ public class TestHelloHello {
     }
 
     @Test
-    public void testHelloEmpty() {
+    public void testHelloMessage() {
         assertEquals(helloHello.getGreeting(), "hello");
     }
 }
